@@ -1,7 +1,8 @@
 # WiFiNINA AJAX Demonstration
 
  A simple web server that lets you blink an LED and read and ADC input
- without refreshing the page through AJAX.
+ without refreshing the page through AJAX. This also demonstrates serving
+ multiple webpages using a WiFiNINA based system.
 
  This sketch will print the IP address of your WiFi module (once connected)
  to the Serial Monitor. From there, you can open that address in a web browser
