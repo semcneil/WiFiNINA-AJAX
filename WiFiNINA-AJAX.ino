@@ -76,7 +76,7 @@ void setup() {
 void loop() {
   WiFiClient client = server.available();   // listen for incoming clients
 
-  int adcVal = analogRead(ADC_PIN);
+  int adcVal = analogRead(ADC_PIN);  // Running this inside the if (client.available()) crashed the RP2040
 
   if (client) {                             // if you get a client,
     Serial.println("new client");           // print a message out the serial port
