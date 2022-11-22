@@ -11,7 +11,7 @@
  WEP or WPA, change the WiFi.begin() call accordingly.
 
  Circuit:
- * Board with NINA module (tested with an Arduino Nano Connect RP2040
+ * Board with NINA module (tested with an Arduino Nano Connect RP2040)
  * LED_BUILTIN working
  * Analog source on A0
  
